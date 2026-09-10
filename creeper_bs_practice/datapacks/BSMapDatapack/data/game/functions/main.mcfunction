@@ -18,6 +18,7 @@ function game:movement/skelecords
 function game:clutches/vineclutch
 function game:clutches/pigholeclutch
 function game:clutches/fireresclutch
+function game:clutches/misplaceobbyclutch
 
 #on death 
 execute as @a[scores={onDeath=1..}] at @s run clear @s

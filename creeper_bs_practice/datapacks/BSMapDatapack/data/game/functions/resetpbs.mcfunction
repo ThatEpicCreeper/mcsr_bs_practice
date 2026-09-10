@@ -10,3 +10,5 @@ scoreboard players set dummy skcPBTimeSec 67
 scoreboard players set dummy phcPBTimeMs 670
 scoreboard players set dummy phcPBTimeSec 67
 
+scoreboard players set dummy mpoPBTimeSec 67
+scoreboard players set dummy mpoPBTimeMs 670
