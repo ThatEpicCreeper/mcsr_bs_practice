@@ -15,3 +15,16 @@ common.rejoin_world 23620804 18683782
 common.leave_world 24246975 19261347
 common.rejoin_world 59816944 19261347
 common.leave_world 62487155 21927455
+common.rejoin_world 62953196 21927455
+common.leave_world 63611980 22563900
+common.rejoin_world 82066284 22563900
+rsg.obtain_iron_pickaxe 82517213 22990508
+rsg.obtain_lava_bucket 82535762 23009058
+common.leave_world 83388196 23860458
+common.rejoin_world 83439084 23860458
+rsg.distract_piglin 85312290 25632059
+common.leave_world 86723233 26950859
+common.rejoin_world 86727940 26950859
+common.leave_world 86864529 27085392
+common.rejoin_world 94246116 27085392
+common.leave_world 95059091 27788885
