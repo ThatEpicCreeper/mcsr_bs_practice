@@ -24,7 +24,7 @@ This map is intended for practicing very random BS during RSG/Ranked runs. Try o
  4. Blind Split Pearling
  5. Boating Endermen
 
-Other Random BS:
+- Other Random BS:
  1. Gravel Mining
  2. Tree Mining
  3. Blazelight
