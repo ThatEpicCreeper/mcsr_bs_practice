@@ -18,13 +18,13 @@ This map is intended for practicing very random BS during RSG/Ranked runs. Try o
 ## Planned:
 
 - Mechanics:
- 1. Animal Practice
- 2. Piglin Distraction
- 3. End Cage Stuck
- 4. Blind Split Pearling
- 5. Boating Endermen
+  1. Animal Practice
+  2. Piglin Distraction
+  3. End Cage Stuck
+  4. Blind Split Pearling
+  5. Boating Endermen
 
 - Other Random BS:
- 1. Gravel Mining
- 2. Tree Mining
- 3. Blazelight
+  1. Gravel Mining
+  2. Tree Mining
+  3. Blazelight
