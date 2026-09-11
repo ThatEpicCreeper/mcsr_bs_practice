@@ -69,7 +69,7 @@ execute if score dummy phcInPrac matches 1 run execute as @a[scores={throwSnowba
 
 execute as @a[scores={onDeath=1..}] at @s run execute if score dummy phcInPrac matches 1 run scoreboard players set @a dropIronPickaxe 1
 
-execute as @a[scores={dropIronPickaxe=1..}] at @s run tp @s 80 11 55 0 0
+execute if score dummy phcInPrac matches 1 run execute as @a[scores={dropIronPickaxe=1..}] at @s run tp @s 80 11 55 0 0
 execute as @a[scores={dropIronPickaxe=1..}] at @s run clear @s
 execute as @a[scores={dropIronPickaxe=1..}] at @s run effect give @s fire_resistance 20 5 true
 execute as @a[scores={dropIronPickaxe=1..}] at @s run effect give @s regeneration 20 5 true

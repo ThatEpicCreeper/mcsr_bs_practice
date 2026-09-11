@@ -74,7 +74,7 @@ execute if score dummy mpoInPrac matches 1 run execute as @a[scores={throwSnowba
 
 execute as @a[scores={onDeath=1..}] at @s run execute if score dummy mpoInPrac matches 1 run scoreboard players set @a dropIronPickaxe 1
 
-execute as @a[scores={dropIronPickaxe=1..}] at @s run tp @s 77 13 105 0 0
+execute if score dummy mpoInPrac matches 1 run execute as @a[scores={dropIronPickaxe=1..}] at @s run tp @s 77 13 105 0 0
 execute as @a[scores={dropIronPickaxe=1..}] at @s run clear @s
 execute as @a[scores={dropIronPickaxe=1..}] at @s run effect give @s fire_resistance 20 5 true
 execute as @a[scores={dropIronPickaxe=1..}] at @s run effect give @s regeneration 20 5 true
@@ -86,4 +86,4 @@ execute as @a[scores={dropIronPickaxe=1..}] at @s run effect give @s saturation 
 execute as @a[scores={dropIronPickaxe=1..}] at @s run execute as @a at @s run attribute @s minecraft:generic.max_health base set 20
 execute as @a[scores={dropIronPickaxe=1..}] at @s run kill @e[type=item,nbt={Item:{id:"minecraft:iron_pickaxe"}}]
 
-execute as @a[scores={dropIronPickaxe=1..}] at @s run scoreboard players set @s dropIronPickaxe 0
+#execute as @a[scores={dropIronPickaxe=1..}] at @s run scoreboard players set @s dropIronPickaxe 0
