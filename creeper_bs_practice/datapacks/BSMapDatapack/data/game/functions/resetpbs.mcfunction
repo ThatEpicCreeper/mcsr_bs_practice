@@ -12,3 +12,15 @@ scoreboard players set dummy phcPBTimeSec 67
 
 scoreboard players set dummy mpoPBTimeSec 67
 scoreboard players set dummy mpoPBTimeMs 670
+
+scoreboard players set dummy kiaPBTimeMs0 670
+scoreboard players set dummy kiaPBTimeSec0 67
+
+scoreboard players set dummy kiaPBTimeMs1 670
+scoreboard players set dummy kiaPBTimeSec1 67
+
+scoreboard players set dummy kiaPBTimeMs2 670
+scoreboard players set dummy kiaPBTimeSec2 67
+
+scoreboard players set dummy kiaPBTimeMs3 670
+scoreboard players set dummy kiaPBTimeSec3 67

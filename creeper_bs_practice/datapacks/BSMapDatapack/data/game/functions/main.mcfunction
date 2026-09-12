@@ -21,6 +21,8 @@ function game:clutches/fireresclutch
 function game:clutches/misplaceobbyclutch
 function game:clutches/woodlightsave
 
+function game:mechanics/killanimals
+
 #on death 
 execute as @a[scores={onDeath=1..}] at @s run clear @s
 execute as @a[scores={onDeath=1..}] at @s run execute as @a at @s run attribute @s minecraft:generic.max_health base set 20
