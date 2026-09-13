@@ -36,17 +36,17 @@ kill @e[type=item,nbt={Item:{id:"minecraft:chest"}}]
 execute positioned 101 15 56 run execute as @e[type=item,distance=..1] run data modify entity @s PickupDelay set value 0s
 
 #spawn pigs
-summon minecraft:piglin 101 12 56 {IsImmuneToZombification:1b}
-summon minecraft:piglin 101 12 56 {IsImmuneToZombification:1b}
-summon minecraft:piglin 101 12 56 {IsImmuneToZombification:1b}
-summon minecraft:piglin 101 12 56 {IsImmuneToZombification:1b}
-summon minecraft:piglin 101 12 56 {IsImmuneToZombification:1b}
-summon minecraft:piglin 101 12 56 {IsImmuneToZombification:1b}
-summon minecraft:piglin 101 12 56 {IsImmuneToZombification:1b}
-summon minecraft:piglin 101 12 56 {IsImmuneToZombification:1b}
-summon minecraft:piglin 101 12 56 {IsImmuneToZombification:1b}
-summon minecraft:piglin 101 12 56 {IsImmuneToZombification:1b}
-summon minecraft:piglin 101 12 56 {IsImmuneToZombification:1b}
-summon minecraft:piglin 101 12 56 {IsImmuneToZombification:1b}
+summon minecraft:piglin 101 12 56 {IsImmuneToZombification:1b,HandItems:[{id:golden_sword,Count:1},{}]}
+summon minecraft:piglin 101 12 56 {IsImmuneToZombification:1b,HandItems:[{id:golden_sword,Count:1},{}]}
+summon minecraft:piglin 101 12 56 {IsImmuneToZombification:1b,HandItems:[{id:golden_sword,Count:1},{}]}
+summon minecraft:piglin 101 12 56 {IsImmuneToZombification:1b,HandItems:[{id:golden_sword,Count:1},{}]}
+summon minecraft:piglin 101 12 56 {IsImmuneToZombification:1b,HandItems:[{id:golden_sword,Count:1},{}]}
+summon minecraft:piglin 101 12 56 {IsImmuneToZombification:1b,HandItems:[{id:golden_sword,Count:1},{}]}
+summon minecraft:piglin 101 12 56 {IsImmuneToZombification:1b,HandItems:[{id:golden_sword,Count:1},{}]}
+summon minecraft:piglin 101 12 56 {IsImmuneToZombification:1b,HandItems:[{id:golden_sword,Count:1},{}]}
+summon minecraft:piglin 101 12 56 {IsImmuneToZombification:1b,HandItems:[{id:golden_sword,Count:1},{}]}
+summon minecraft:piglin 101 12 56 {IsImmuneToZombification:1b,HandItems:[{id:golden_sword,Count:1},{}]}
+summon minecraft:piglin 101 12 56 {IsImmuneToZombification:1b,HandItems:[{id:golden_sword,Count:1},{}]}
+summon minecraft:piglin 101 12 56 {IsImmuneToZombification:1b,HandItems:[{id:golden_sword,Count:1},{}]}
 
 scoreboard players set dummy phcStarted 1

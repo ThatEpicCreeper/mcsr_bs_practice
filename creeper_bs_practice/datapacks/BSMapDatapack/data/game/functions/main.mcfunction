@@ -22,6 +22,7 @@ function game:clutches/misplaceobbyclutch
 function game:clutches/woodlightsave
 
 function game:mechanics/killanimals
+function game:mechanics/distractpiglins
 
 #on death 
 execute as @a[scores={onDeath=1..}] at @s run clear @s

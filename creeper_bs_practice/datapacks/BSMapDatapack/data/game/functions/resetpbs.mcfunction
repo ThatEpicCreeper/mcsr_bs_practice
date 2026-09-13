@@ -24,3 +24,6 @@ scoreboard players set dummy kiaPBTimeSec2 67
 
 scoreboard players set dummy kiaPBTimeMs3 670
 scoreboard players set dummy kiaPBTimeSec3 67
+
+scoreboard players set dummy dspPBTimeSec 67
+scoreboard players set dummy dspPBTimeMs 670
