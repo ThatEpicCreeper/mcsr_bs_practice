@@ -26,10 +26,10 @@ kill @e[type=minecraft:end_crystal]
 kill @e[type=minecraft:boat]
 
 #spawn crystal
-summon minecraft:end_crystal 33 82.5 -25
+summon minecraft:end_crystal 33 83 -25
 
 #go to map
-tp @a 31.85 82 -26 -90 75
+tp @a 31.9 82 -26 -90 75
 
 #play dragon
 execute as @a at @s run playsound minecraft:entity.ender_dragon.growl master @s ~ ~ ~ 1 1
