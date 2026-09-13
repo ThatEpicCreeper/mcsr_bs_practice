@@ -20,6 +20,7 @@ execute positioned -57 22 116 run kill @e[type=item,distance=..20]
 
 # reset piglins
 kill @e[type=minecraft:piglin]
+kill @e[type=boat]
 
 #spawn pigs
 summon piglin -52 21 109 {IsImmuneToZombification:1b,HandItems:[{id:golden_sword,Count:1},{}]}
