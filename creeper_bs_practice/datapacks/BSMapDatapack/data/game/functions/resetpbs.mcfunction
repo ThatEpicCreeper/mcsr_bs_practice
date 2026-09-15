@@ -30,3 +30,9 @@ scoreboard players set dummy dspPBTimeMs 670
 
 scoreboard players set dummy ecgPBTimeSec 67
 scoreboard players set dummy ecgPBTimeMs 670
+
+scoreboard players set dummy bemPBTimeMs 670
+scoreboard players set dummy bemPBTimeSec 67
+
+scoreboard players set dummy bspPBTimeMs 670
+scoreboard players set dummy bspPBTimeSec 67
