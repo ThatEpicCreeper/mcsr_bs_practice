@@ -14,15 +14,14 @@ This map is intended for practicing very random BS during RSG/Ranked runs. Try o
   3. Fire resistance potion clutch
   4. Mining misplaced obsidian
   5. Woodlight portal lava flood
-
-## Planned:
-
 - Mechanics:
   1. Animal Practice
   2. Piglin Distraction
   3. End Cage Stuck
   4. Blind Split Pearling
   5. Boating Endermen
+
+## Planned:
 
 - Other Random BS:
   1. Gravel Mining
