@@ -27,6 +27,9 @@ function game:mechanics/endcagestuck
 function game:mechanics/boateman
 function game:mechanics/blindsplitpearl
 
+function game:other/gravelmining
+function game:other/treemining
+
 #on death 
 execute as @a[scores={onDeath=1..}] at @s run clear @s
 execute as @a[scores={onDeath=1..}] at @s run execute as @a at @s run attribute @s minecraft:generic.max_health base set 20

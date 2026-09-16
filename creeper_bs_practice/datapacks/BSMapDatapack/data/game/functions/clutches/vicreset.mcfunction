@@ -115,6 +115,7 @@ effect give @a minecraft:saturation 2 5 true
 #delete items
 kill @e[type=item,nbt={Item:{id:"minecraft:warped_sign"}}]
 kill @e[type=item,nbt={Item:{id:"minecraft:snowball"}}]
+execute positioned 101 12 29 run kill @e[type=item,distance=..13]
 
 #go to map
 tp @a 95 32 29 -90 0
