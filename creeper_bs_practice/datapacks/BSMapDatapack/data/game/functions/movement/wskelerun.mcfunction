@@ -97,3 +97,12 @@ execute as @a[scores={dropStoneAxe=1..}] at @s run scoreboard players set dummy 
 execute as @a[scores={dropStoneAxe=1..}] at @s run kill @e[type=item,nbt={Item:{id:"minecraft:stone_axe"}}]
 
 execute as @a[scores={dropStoneAxe=1..}] at @s run scoreboard players set @s dropStoneAxe 0
+
+execute if score dummy wsrInPrac matches 1 run execute as @a[scores={dropIronPickaxe=1..}] at @s run tp @s 85 7 -19 0 0
+execute if score dummy wsrInPrac matches 1 run execute as @a[scores={dropIronPickaxe=1..}] at @s run clear @s
+execute if score dummy wsrInPrac matches 1 run execute as @a[scores={dropIronPickaxe=1..}] at @s run effect give @s fire_resistance 20 5 true
+execute if score dummy wsrInPrac matches 1 run execute as @a[scores={dropIronPickaxe=1..}] at @s run effect give @s regeneration 20 5 true
+execute if score dummy wsrInPrac matches 1 run execute as @a[scores={dropIronPickaxe=1..}] at @s run effect give @s resistance 20 5 true
+execute if score dummy wsrInPrac matches 1 run execute as @a[scores={dropIronPickaxe=1..}] at @s run scoreboard players set dummy wsrInPrac 0
+execute if score dummy wsrInPrac matches 1 run execute as @a[scores={dropIronPickaxe=1..}] at @s run scoreboard players set dummy wsrStarted 0
+execute if score dummy wsrInPrac matches 1 run execute as @a[scores={dropIronPickaxe=1..}] at @s run kill @e[type=item,nbt={Item:{id:"minecraft:iron_pickaxe"}}]

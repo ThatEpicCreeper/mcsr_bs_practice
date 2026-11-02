@@ -189,3 +189,13 @@ execute as @a[scores={dropGoldSword=1..}] at @s run kill @e[type=item,nbt={Item:
 
 execute as @a[scores={dropGoldSword=1..}] at @s run scoreboard players set @s dropGoldSword 0
 
+execute if score dummy kiaInPrac matches 1 run execute as @a[scores={dropIronPickaxe=1..}] at @s run tp @s 2 11 68 0 0
+execute if score dummy kiaInPrac matches 1 run execute as @a[scores={dropIronPickaxe=1..}] at @s run clear @s
+execute if score dummy kiaInPrac matches 1 run execute as @a[scores={dropIronPickaxe=1..}] at @s run effect give @s fire_resistance 20 5 true
+execute if score dummy kiaInPrac matches 1 run execute as @a[scores={dropIronPickaxe=1..}] at @s run effect give @s regeneration 20 5 true
+execute if score dummy kiaInPrac matches 1 run execute as @a[scores={dropIronPickaxe=1..}] at @s run effect give @s resistance 20 5 true
+execute if score dummy kiaInPrac matches 1 run execute as @a[scores={dropIronPickaxe=1..}] at @s run scoreboard players set dummy kiaInPrac 0
+execute if score dummy kiaInPrac matches 1 run execute as @a[scores={dropIronPickaxe=1..}] at @s run scoreboard players set dummy kiaStarted 0
+execute if score dummy kiaInPrac matches 1 run execute as @a[scores={dropIronPickaxe=1..}] at @s run effect give @s saturation 1 5 true
+execute if score dummy kiaInPrac matches 1 run execute as @a[scores={dropIronPickaxe=1..}] at @s run kill @e[type=item,nbt={Item:{id:"minecraft:iron_pickaxe"}}]
+

@@ -36,4 +36,5 @@ execute if score dummy hfsMap matches 1 run tp @a 49 7 -43 180 0
 
 give @a flint_and_steel{CanPlaceOn:[crimson_nylium,netherrack,crimson_hyphae,crimson_stem,nether_wart_block],CanDestroy:[fire],HideFlags:24}
 give @a snowball{display:{Name:'[{"text":"Reset","bold":true,"italic":false,"color":"gold"}]',Lore:['[{"text":"(Throw to reset)","italic":false,"color":"gray"}]']}}
+give @a iron_pickaxe
 

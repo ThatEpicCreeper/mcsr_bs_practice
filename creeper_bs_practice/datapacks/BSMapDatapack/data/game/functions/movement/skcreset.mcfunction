@@ -48,3 +48,6 @@ tp @a 127 18 -51 180 0
 give @a stone_shovel{CanDestroy:[soul_soil,gravel],HideFlags:24}
 give @a snowball{display:{Name:'[{"text":"Reset","bold":true,"italic":false,"color":"gold"}]',Lore:['[{"text":"(Throw to reset)","italic":false,"color":"gray"}]']}}
 give @a gravel{CanPlaceOn:[gravel,soul_soil,soul_sand,bone_block],HideFlags:24} 64
+give @a iron_pickaxe
+
+gamerule naturalRegeneration false

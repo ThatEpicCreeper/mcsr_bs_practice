@@ -52,3 +52,4 @@ tp @a 85 31 -39 180 0
 
 give @a stone_axe
 give @a snowball{display:{Name:'[{"text":"Reset","bold":true,"italic":false,"color":"gold"}]',Lore:['[{"text":"(Throw to reset)","italic":false,"color":"gray"}]']}}
+give @a iron_pickaxe

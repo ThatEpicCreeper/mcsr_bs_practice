@@ -78,3 +78,14 @@ execute as @a[scores={dropFNS=1..}] at @s run scoreboard players set dummy hfsSt
 execute as @a[scores={dropFNS=1..}] at @s run kill @e[type=item,nbt={Item:{id:"minecraft:flint_and_steel"}}]
 
 execute as @a[scores={dropFNS=1..}] at @s run scoreboard players set @s dropFNS 0
+
+execute if score dummy hfsInPrac matches 1 run execute as @a[scores={dropIronPickaxe=1..}] at @s run tp @s 48 7 -18 180 0
+execute if score dummy hfsInPrac matches 1 run execute as @a[scores={dropIronPickaxe=1..}] at @s run clear @s
+execute if score dummy hfsInPrac matches 1 run execute as @a[scores={dropIronPickaxe=1..}] at @s run effect give @s fire_resistance 20 5 true
+execute if score dummy hfsInPrac matches 1 run execute as @a[scores={dropIronPickaxe=1..}] at @s run effect give @s regeneration 20 5 true
+execute if score dummy hfsInPrac matches 1 run execute as @a[scores={dropIronPickaxe=1..}] at @s run effect give @s resistance 20 5 true
+execute if score dummy hfsInPrac matches 1 run execute as @a[scores={dropIronPickaxe=1..}] at @s run scoreboard players set dummy hfsInPrac 0
+execute if score dummy hfsInPrac matches 1 run execute as @a[scores={dropIronPickaxe=1..}] at @s run scoreboard players set dummy hfsStarted 0
+execute if score dummy hfsInPrac matches 1 run execute as @a[scores={dropIronPickaxe=1..}] at @s run kill @e[type=item,nbt={Item:{id:"minecraft:iron_pickaxe"}}]
+
+

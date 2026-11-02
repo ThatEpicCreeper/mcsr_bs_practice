@@ -123,4 +123,4 @@ tp @a 95 32 29 -90 0
 #give items
 give @a warped_sign
 give @a snowball{display:{Name:'[{"text":"Reset","bold":true,"italic":false,"color":"gold"}]',Lore:['[{"text":"(Throw to reset)","italic":false,"color":"gray"}]']}}
-
+give @a iron_pickaxe
