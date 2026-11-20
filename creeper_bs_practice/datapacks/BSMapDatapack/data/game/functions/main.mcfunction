@@ -14,6 +14,7 @@ scoreboard objectives add hp health
 function game:movement/hoglinfs
 function game:movement/wskelerun
 function game:movement/skelecords
+function game:movement/wskeleinfrun
 
 function game:clutches/vineclutch
 function game:clutches/pigholeclutch

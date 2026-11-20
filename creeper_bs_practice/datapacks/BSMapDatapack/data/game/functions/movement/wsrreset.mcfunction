@@ -31,7 +31,7 @@ kill @e[type=item,nbt={Item:{id:"minecraft:flint"}}]
 kill @e[type=item,nbt={Item:{id:"minecraft:snowball"}}]
 kill @e[type=item,nbt={Item:{id:"minecraft:stone_axe"}}]
 
-# reset hoglins
+# reset wither skeles
 kill @e[type=minecraft:wither_skeleton]
 
 summon wither_skeleton 85 31 -55

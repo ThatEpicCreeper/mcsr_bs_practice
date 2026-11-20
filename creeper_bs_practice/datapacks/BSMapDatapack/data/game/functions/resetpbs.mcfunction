@@ -42,3 +42,5 @@ scoreboard players set dummy gvmPBTimeSec 67
 
 scoreboard players set dummy trmPBTimeMs 670
 scoreboard players set dummy trmPBTimeSec 67
+
+scoreboard players set dummy wsirPBDist 0
