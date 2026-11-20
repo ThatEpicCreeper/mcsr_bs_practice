@@ -28,15 +28,15 @@ execute if score dummy vicInPrac matches 1 run execute as @a[scores={throwSnowba
 
 execute as @a[scores={onDeath=1..}] at @s run execute if score dummy vicInPrac matches 1 run scoreboard players set @a dropStoneShovel 1
 
-execute as @a[scores={dropWarpedSign=1..}] at @s run tp @s 81 10 23 0 0
-execute as @a[scores={dropWarpedSign=1..}] at @s run clear @s
-execute as @a[scores={dropWarpedSign=1..}] at @s run effect give @s fire_resistance 20 5 true
-execute as @a[scores={dropWarpedSign=1..}] at @s run effect give @s regeneration 20 5 true
-execute as @a[scores={dropWarpedSign=1..}] at @s run effect give @s resistance 20 5 true
-execute as @a[scores={dropWarpedSign=1..}] at @s run scoreboard players set dummy vicInPrac 0
+execute if score dummy vicInPrac matches 1 run execute as @a[scores={dropWarpedSign=1..}] at @s run tp @s 81 10 23 0 0
+execute if score dummy vicInPrac matches 1 run execute as @a[scores={dropWarpedSign=1..}] at @s run clear @s
+execute if score dummy vicInPrac matches 1 run execute as @a[scores={dropWarpedSign=1..}] at @s run effect give @s fire_resistance 20 5 true
+execute if score dummy vicInPrac matches 1 run execute as @a[scores={dropWarpedSign=1..}] at @s run effect give @s regeneration 20 5 true
+execute if score dummy vicInPrac matches 1 run execute as @a[scores={dropWarpedSign=1..}] at @s run effect give @s resistance 20 5 true
+execute if score dummy vicInPrac matches 1 run execute as @a[scores={dropWarpedSign=1..}] at @s run scoreboard players set dummy vicInPrac 0
 # execute as @a[scores={dropStoneShovel=1..}] at @s run scoreboard players set dummy vicStarted 0
-execute as @a[scores={dropWarpedSign=1..}] at @s run effect give @s saturation 1 5 true
-execute as @a[scores={dropWarpedSign=1..}] at @s run kill @e[type=item,nbt={Item:{id:"minecraft:warped_sign"}}]
+execute if score dummy vicInPrac matches 1 run execute as @a[scores={dropWarpedSign=1..}] at @s run effect give @s saturation 1 5 true
+execute if score dummy vicInPrac matches 1 run execute as @a[scores={dropWarpedSign=1..}] at @s run kill @e[type=item,nbt={Item:{id:"minecraft:warped_sign"}}]
 
 execute as @a[scores={dropWarpedSign=1..}] at @s run scoreboard players set @s dropWarpedSign 0
 

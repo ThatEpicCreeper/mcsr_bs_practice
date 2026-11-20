@@ -86,18 +86,18 @@ execute if score dummy skcInPrac matches 1 run execute as @a[scores={throwSnowba
 
 execute as @a[scores={onDeath=1..}] at @s run execute if score dummy skcInPrac matches 1 run scoreboard players set @a dropStoneShovel 1
 
-execute as @a[scores={dropStoneShovel=1..}] at @s run gamerule naturalRegeneration true
-execute as @a[scores={dropStoneShovel=1..}] at @s run tp @s 123 6 -20 0 0
-execute as @a[scores={dropStoneShovel=1..}] at @s run clear @s
-execute as @a[scores={dropStoneShovel=1..}] at @s run effect give @s fire_resistance 20 5 true
-execute as @a[scores={dropStoneShovel=1..}] at @s run effect give @s regeneration 20 5 true
-execute as @a[scores={dropStoneShovel=1..}] at @s run effect give @s resistance 20 5 true
-execute as @a[scores={dropStoneShovel=1..}] at @s run scoreboard players set dummy skcInPrac 0
-execute as @a[scores={dropStoneShovel=1..}] at @s run scoreboard players set dummy skcStarted 0
-execute as @a[scores={dropStoneShovel=1..}] at @s run effect clear @s hunger
-execute as @a[scores={dropStoneShovel=1..}] at @s run effect give @s saturation 1 5 true
-execute as @a[scores={dropStoneShovel=1..}] at @s run execute as @a at @s run attribute @s minecraft:generic.max_health base set 20
-execute as @a[scores={dropStoneShovel=1..}] at @s run kill @e[type=item,nbt={Item:{id:"minecraft:stone_shovel"}}]
+execute if score dummy skcInPrac matches 1 run execute as @a[scores={dropStoneShovel=1..}] at @s run gamerule naturalRegeneration true
+execute if score dummy skcInPrac matches 1 run execute as @a[scores={dropStoneShovel=1..}] at @s run tp @s 123 6 -20 0 0
+execute if score dummy skcInPrac matches 1 run execute as @a[scores={dropStoneShovel=1..}] at @s run clear @s
+execute if score dummy skcInPrac matches 1 run execute as @a[scores={dropStoneShovel=1..}] at @s run effect give @s fire_resistance 20 5 true
+execute if score dummy skcInPrac matches 1 run execute as @a[scores={dropStoneShovel=1..}] at @s run effect give @s regeneration 20 5 true
+execute if score dummy skcInPrac matches 1 run execute as @a[scores={dropStoneShovel=1..}] at @s run effect give @s resistance 20 5 true
+execute if score dummy skcInPrac matches 1 run execute as @a[scores={dropStoneShovel=1..}] at @s run scoreboard players set dummy skcInPrac 0
+execute if score dummy skcInPrac matches 1 run execute as @a[scores={dropStoneShovel=1..}] at @s run scoreboard players set dummy skcStarted 0
+execute if score dummy skcInPrac matches 1 run execute as @a[scores={dropStoneShovel=1..}] at @s run effect clear @s hunger
+execute if score dummy skcInPrac matches 1 run execute as @a[scores={dropStoneShovel=1..}] at @s run effect give @s saturation 1 5 true
+execute if score dummy skcInPrac matches 1 run execute as @a[scores={dropStoneShovel=1..}] at @s run execute as @a at @s run attribute @s minecraft:generic.max_health base set 20
+execute if score dummy skcInPrac matches 1 run execute as @a[scores={dropStoneShovel=1..}] at @s run kill @e[type=item,nbt={Item:{id:"minecraft:stone_shovel"}}]
 
 execute as @a[scores={dropStoneShovel=1..}] at @s run scoreboard players set @s dropStoneShovel 0
 
