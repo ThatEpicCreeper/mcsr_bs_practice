@@ -1,12 +1,13 @@
 # Creeper's MCSR BS Practice Map
 
 This map is intended for practicing very random BS during RSG/Ranked runs. Try out all kinds of niche and unique situations that you may possibly encounter during your runs!
+(note: for the wither skeleton running map, if the map does not clear properly, try increasing render distance, eg. 16+)
 
 ## Current Implemented Features/Practice Areas:
 
 - Movement
   1. Hoglin F&S
-  2. Wither Skeleton practice
+  2. Wither Skeleton practice [+including infinite runner practice]
   3. Skeleton on (stronghold) co-ordinates practice
 - Clutches/Saves
   1. Nether vine clutch
